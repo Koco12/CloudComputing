@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap');
+nav {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 3px;
+}
+nav li {
+  padding-left: 2px;
+  background-color:#021932;
+  float:left;
+  font-size: 12.3px;
+}
+nav li a {
+  display: block;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  color:white;
+}
+nav li a:hover {
+  color:#ECE7A6 ;
+  text-decoration: none;
+}
+header{
+  margin: auto;
+  position: relative;
+}
+header img {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+}
+header h1 {
+  margin-bottom: -15px;
+}
+#headingSent{  /*a sentence under the main heading*/
+  font-size: 12px;
+}
+header a{
+  text-decoration: none;
+  color: white
+}
+header a:hover {
+  color: #ECE7A6;
+}
+.headingAndAsentence{
+  background-color:#021932;
+  width: 32%;
+  margin-left: 200px;
+  padding: 10px 10px 60px 10px;
+  position:  relative;
+  bottom: 120px;
+  color:white;
+  font-size: 17px;
+  border-radius: 4px;
+}
+.sideContent {
+  width: 55%;
+  height: 300px;
+  float: left;
+  position: relative;
+}
+section img {
+  width: 150px;
+}
+.privatecloud{
+  width: 30%;
+  float: left;
+  text-align: justify;
+}
+.publiccloud {
+  width: 30%;
+  float:left;
+  text-align: justify;
+
+}
+.hybridcloud{
+  width: 30%;
+  float: left;
+  text-align: justify;
+}
+.sideContent p {
+border-radius: 5px;
+padding: 3px;
+background: linear-gradient(to bottom, #33ccff 0%, #ffffff 75%);
+}
+.mainContent {
+  display: block;
+  float: left;
+  width: 42%;
+  height: 300px;
+  text-align: justify;
+  position: relative;
+  padding-right: 3%;
+}
+.contentBox{
+  margin-top: -90px;
+  padding: 8px;
+  height: 300px;
+}
+footer{
+  position: static;
+  text-align: right;
+
+}
+body{
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: "Nanum Myeongjo", sans-serif;
+  font-size: 14px;
+}
+/* setting a collapsible*/
+.moreinfo {
+   display:none;
+}
+main a {
+  color:black;
+}
+main a:hover {
+  color: #ECE7A6;
+}
+.more:target + .moreinfo {
+   display: block;
+}
