@@ -1,116 +1,75 @@
-body{
-	width: 1400px;
-	margin: auto;
-}
-
 footer{
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	background-color: #333;
 	color: white;
+	padding-top: 10px;
 }
-nav>ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
+main{
+	padding: 20px;
 }
-
-nav>ul>li{
-	float: left;
+main>div{
+	margin-top: 50px;
 }
-
-nav>ul>li a{
-	display: block;
-	color: white;
+.rightside{
+	text-align: right;
+}
+.centered-content{
+	max-width: 900px;
+	margin: auto;
+}
+.centered-title{
 	text-align: center;
-	padding: 10px 10px;
-	text-decoration: none;
-
 }
 
-nav>ul>li a:hover{
-	background-color: #111;
-}
-
-.container{
-	position: relative;
-	background-image: url(homepage_jumbo.png);
-	display: flex;
-	height: 350px;
-}
-
-.text-block{
+.textblock{
 	position: absolute;
-	bottom: -120px;
-	left: 150px;
+	bottom: -50px;
+	left: 250px;
+	width: 550px;
+	height: 300px;
 	background-color: black;
 	color: white;
 	padding-left: 20px;
 	padding-right: 20px;
-	padding-bottom: 100px;
-	width: 350px;
-	height: 320px;
 }
 
+.main-picture{
+	position: relative;
+	background-image: url(homepage_jumbo.png);
+	height: 350px;
+}
+
+.types{
+	float: left;
+	padding: 10px;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	clear: left;
+}
+
+.little-img{
+	height: 150px;
+	width: 150px;
+	display: block;
+	margin: auto;
+}
+
+.mid-img{
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin: auto;
+}
+
+.large-img{
+	height: 400px;
+	width: 400px;
+	display: block;
+	margin: auto;
+}
 .movedown{
-	margin-top: 180px;
+	margin-top: 150px;
 }
-
-.dep{
-	text-align: center;
-}
-
-.deployment-1{
-	position: relative;
-	width: 200px;
-	height: 200px;
-	bottom: 150px;
-	left: 600px;
-	text-align: center;
-}
-
-.deployment-2{
-	position: relative;
-	width: 200px;
-	height: 200px;
-	left: 800px;
-	text-align: center;
-}
-
-.deployment-3{
-	position: relative;
-	width: 200px;
-	height: 200px;
-	left: 1000px;
-	text-align: center;
-}
-
-.deplo-img{
-	position: relative;
-}
-
-.citation{
-	font-style: italic; 
-}
-
-
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-}
-
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
