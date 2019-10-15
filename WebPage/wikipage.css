@@ -37,7 +37,7 @@ main>div{
 
 .main-picture{
 	position: relative;
-	background-image: url(homepage_jumbo.png);
+	background-image: url(images_alternative/homepage_jumbo.png);
 	height: 350px;
 }
 
@@ -51,7 +51,7 @@ main>div{
 }
 
 .little-img{
-	height: 150px;
+	height: 100px;
 	width: 150px;
 	display: block;
 	margin: auto;
@@ -67,6 +67,12 @@ main>div{
 .large-img{
 	height: 400px;
 	width: 400px;
+	display: block;
+	margin: auto;
+}
+.long-img{
+	height:430px;
+	width: 300px;
 	display: block;
 	margin: auto;
 }
