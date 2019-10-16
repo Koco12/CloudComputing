@@ -9,6 +9,18 @@ footer{
 main{
 	padding: 20px;
 }
+
+h2{
+	text-align: lefts;
+	color:#2B7DBC;
+	text-shadow: 0 2px white, 0 3px #777;
+}
+
+span.important{
+	display: in-inline;
+	color:#2B7DBC;
+}
+
 main>div{
 	margin-top: 50px;
 }
@@ -43,7 +55,7 @@ main>div{
 
 .main-picture{
 	position: relative;
-	background-image: url(homepage_jumbo.png);
+	background-image: url(images_alternative/homepage_jumbo.png);
 	height: 350px;
 }
 
@@ -57,7 +69,7 @@ main>div{
 }
 
 .little-img{
-	height: 150px;
+	height: 100px;
 	width: 150px;
 	display: block;
 	margin: auto;
@@ -90,6 +102,14 @@ main>div{
   position: relative;
   top: -10px;
   visibility: hidden;
+}
+
+
+.long-img{
+	height:430px;
+	width: 300px;
+	display: block;
+	margin: auto;
 }
 
 .movedown{
