@@ -9,6 +9,18 @@ footer{
 main{
 	padding: 20px;
 }
+
+h2{
+	text-align: lefts;
+	color:#2B7DBC;
+	text-shadow: 0 2px white, 0 3px #777;
+}
+
+span.important{
+	display: in-inline;
+	color:#2B7DBC;
+}
+
 main>div{
 	margin-top: 50px;
 }
@@ -78,10 +90,4 @@ main>div{
 }
 .movedown{
 	margin-top: 150px;
-}
-
-h1{
-	text-align:left
-	color:
-	
 }
