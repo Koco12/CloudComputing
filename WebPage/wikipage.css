@@ -35,6 +35,12 @@ main>div{
 	text-align: center;
 }
 
+.down-left{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
 .textblock{
 	position: absolute;
 	bottom: -50px;
@@ -82,12 +88,30 @@ main>div{
 	display: block;
 	margin: auto;
 }
+
+.centered-img{
+	align-items: center;
+	height: 200px;
+	width: 500px;
+	display: block;
+	margin: auto;
+}
+
+.anchor{
+	display: block;
+  position: relative;
+  top: -10px;
+  visibility: hidden;
+}
+
+
 .long-img{
 	height:430px;
 	width: 300px;
 	display: block;
 	margin: auto;
 }
+
 .movedown{
 	margin-top: 150px;
 }
