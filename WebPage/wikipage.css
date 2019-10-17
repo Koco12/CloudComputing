@@ -27,8 +27,13 @@ h2{
 .columnheading{
 	text-align:center;
 	color:#2B7DBC;
-
 }
+
+h3{
+	text-align:justify;
+	color:#2B7DBC;
+}
+
 
 p{
 	font-size: 21px;
