@@ -1,3 +1,4 @@
+
 footer{
 	display: flex;
 	align-items: center;
@@ -6,14 +7,30 @@ footer{
 	color: white;
 	padding-top: 10px;
 }
+
+header{
+	font-family: 'Advent Pro';
+	color: white;
+}
+
 main{
 	padding: 20px;
+	text-align: justify;
+	font-family: 'Advent Pro';
 }
 
 h2{
-	text-align: lefts;
+	text-align:justify;
 	color:#2B7DBC;
-	text-shadow: 0 2px white, 0 3px #777;
+}
+.columnheading{
+	text-align:center;
+	color:#2B7DBC;
+
+}
+
+p{
+	font-size: 23px;
 }
 
 span.important{
