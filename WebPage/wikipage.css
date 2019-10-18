@@ -9,7 +9,7 @@ footer{
 
 header{
 	font-family: 'Advent Pro';
-	color: white;	
+	color: white;
 }
 
 main{
@@ -47,6 +47,10 @@ p{
 span.important{
 	display: in-inline;
 	color:#2B7DBC;
+}
+
+span.standout{
+	color:#FC9E4F;
 }
 
 main>div{
