@@ -24,6 +24,10 @@ h2{
 	color:#2B7DBC;
 }
 
+div.pos-f-t {
+	margin-top:35px;
+}
+
 .columnheading{
 	text-align:center;
 	color:#2B7DBC;
@@ -31,7 +35,8 @@ h2{
 
 h3{
 	text-align:justify;
-	color:#2B7DBC;
+	color:#FC9E4F;
+	font-size:23px;
 }
 
 
